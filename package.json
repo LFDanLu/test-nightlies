@@ -3,14 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react-spectrum/provider": "latest",
-    "@react-spectrum/table": "^3.1.6",
-    "@react-spectrum/theme-default": "^3.2.6",
+    "@adobe/react-spectrum": "latest",
+    "@react-spectrum/table": "3.1.7-nightly.3188",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
   },
@@ -19,6 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "overrides": {
+    "@react-aria/overlays": "3.0.0-nightly.1490"
   },
   "eslintConfig": {
     "extends": [
